@@ -704,33 +704,39 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: #1c7742;
+  border-bottom: 10px solid #33c06e;
   color: #fff;
+  background-color: #333;
 }
 
 .liste-cours .session-2 {
-  background-color: #d3a145;
+  border-bottom: 5px solid #d3a145;
   color: #aaa;
+  background-color: #333;
 }
 
 .liste-cours .session-3 {
-  background-color: #2f2f97;
+  border-bottom: 5px solid #2f2f97;
   color: #fff;
+  background-color: #333;
 }
 
 .liste-cours .session-4 {
-  background-color: #948b36;
+  border-bottom: 5px solid #c5c200;
   color: #fff;
+  background-color: #333;
 }
 
 .liste-cours .session-5 {
-  background-color: #97173d;
+  border-bottom: 5px solid #97173d;
   color: #fff;
+  background-color: #333;
 }
 
 .liste-cours .session-6 {
-  background-color: #251b04;
+  border-bottom: 5px solid #9c4716;
   color: #fff;
+  background-color: #333;
 }
 
 .liste-cours h3, .liste-cours h4 {
@@ -771,16 +777,37 @@ body.page .main-navigation {
   }
 }
 
+.liste-cours .entry-title {
+  -webkit-box-shadow: 5px 10px #888888;
+          box-shadow: 5px 10px #888888;
+}
+
 .liste-cours .entry-title h3 {
   font-size: .5em;
+  color: #fff;
 }
 
 .liste-cours .entry-title h4 {
   font-size: .4em;
+  color: #fff;
+}
+
+.liste-cours .entry-title h4:hover {
+  color: #4e4e4e;
+  text-decoration: underline;
 }
 
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
+}
+
+.wp-block-media-text__content {
+  border: 5px solid #000000;
+  margin: 2em;
+}
+
+.wp-block-media-text__content p {
+  background-color: #ccc;
 }
 
 @-webkit-keyframes anim1 {

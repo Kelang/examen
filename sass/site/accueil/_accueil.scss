@@ -1,3 +1,9 @@
 .entry .entry-content .has-large-font-size {
     font-size: 1em; 
 }
+
+.wp-block-media-text__content{
+    border: 5px solid #000000;
+    margin: 2em;
+    p{background-color: #ccc;}
+}

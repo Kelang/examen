@@ -11,12 +11,12 @@
     margin: 2% 2% 0% 15%;
     font-size : 1.5em;
   
-    .session-1 { background-color: #1c7742; color : #fff; }
-    .session-2 { background-color: #d3a145; color : #aaa;}
-    .session-3 { background-color: #2f2f97; color : #fff;}
-    .session-4 { background-color: #948b36; color : #fff;}
-    .session-5 { background-color: #97173d; color : #fff;}
-    .session-6 { background-color: #251b04; color : #fff;}
+    .session-1 { border-bottom: 10px solid #33c06e; color : #fff;background-color: #333; }
+    .session-2 { border-bottom: 5px solid #d3a145; color : #aaa;background-color: #333; }
+    .session-3 { border-bottom: 5px solid #2f2f97; color : #fff;background-color: #333; }
+    .session-4 { border-bottom: 5px solid #c5c200; color : #fff;background-color: #333; }
+    .session-5 { border-bottom: 5px solid #97173d; color : #fff;background-color: #333; }
+    .session-6 { border-bottom: 5px solid #9c4716; color : #fff;background-color: #333; }
     h3,h4 { padding:5px;}
 
     @include media(mobile){
@@ -47,11 +47,19 @@
 
     .entry-title {
 
+        box-shadow: 5px 10px #888888;
+
         h3{
             font-size: .5em;
+            color: #fff;
         }
         h4{
             font-size: .4em;
+            color: #fff;   
+        }
+        h4:hover{
+            color: #4e4e4e;
+            text-decoration: underline;
         }
     }
 
