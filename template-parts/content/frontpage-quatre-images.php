@@ -14,19 +14,19 @@
 	<figure class="wp-block-image">
 	 
 	<a href="<?php the_permalink(); ?>"><?php the_title(); ?>
-	<?php 
-//	the_post_thumbnail(''); 
+		<?php 
+	//	the_post_thumbnail(''); 
 
-	$image = get_field('mon_image');
-	$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-	if( $image ) {
-		echo wp_get_attachment_image( $image, $size );
-	}
+		$image = get_field('mon_image');
+		$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+		if( $image ) {
+			echo wp_get_attachment_image( $image, $size );
+		}
 
-	// add_post_meta($post_id, '_thumbnail_id', $attachment_id);
-	
-	?>
-		</a>
+		// add_post_meta($post_id, '_thumbnail_id', $attachment_id);
+		
+		?>
+	</a>
 	</figcaption>
 	</figure>
 </div>
