@@ -11,7 +11,7 @@
     margin: 2% 2% 0% 15%;
     font-size : 1.5em;
   
-    .session-1 { border-bottom: 10px solid #33c06e; color : #fff;background-color: #333; }
+    .session-1 { border-bottom: 5px solid #33c06e; color : #fff;background-color: #333; }
     .session-2 { border-bottom: 5px solid #d3a145; color : #aaa;background-color: #333; }
     .session-3 { border-bottom: 5px solid #2f2f97; color : #fff;background-color: #333; }
     .session-4 { border-bottom: 5px solid #c5c200; color : #fff;background-color: #333; }
@@ -35,19 +35,19 @@
 
     @include media(desktop) {
             grid-template-columns: repeat(4, 1fr);
-            grid-gap: 10px;
+            grid-gap: 30px;
    
     }
 
     @include media(wide) {
             grid-template-columns: repeat(5, 1fr);
-            grid-gap: 10px;
+            grid-gap: 20px;
      
         }
 
     .entry-title {
 
-        box-shadow: 5px 10px #888888;
+        box-shadow: 10px 10px #888888;
 
         h3{
             font-size: .5em;
@@ -56,6 +56,7 @@
         h4{
             font-size: .4em;
             color: #fff;   
+            display: inline-block;
         }
         h4:hover{
             color: #4e4e4e;
@@ -63,7 +64,10 @@
         }
     }
 
-
+    .entry-title:hover{
+        transform: scale(0.9);
+        transition-duration: .3s;
+    }
 
 
 

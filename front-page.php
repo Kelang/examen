@@ -16,7 +16,7 @@ get_header();
 	<main id="main" class="site-main">
 
 	<?php
-		/* Start the Loop  La première boucle 
+		/* Start the Loop  La première boucle */
 		while ( have_posts() ) :
 			the_post();
 			get_template_part( 'template-parts/content/content', 'page' );
@@ -27,7 +27,7 @@ get_header();
 			}
 
 		endwhile; // End of the loop.
-		*/
+		
 		?>
 
 <!--  /////////////////////////////////// La deuxième boucle pour les articles de catégorie Nouvelle -->
